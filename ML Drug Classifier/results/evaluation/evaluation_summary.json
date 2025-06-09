@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-06-09_15-12-35",
+  "models_evaluated": [
+    "k-nearest_neighbors_2025-06-09_15-12-28",
+    "support_vector_machine_2025-06-09_15-12-28",
+    "logistic_regression_2025-06-09_15-12-28",
+    "random_forest_2025-06-09_15-12-29"
+  ],
+  "test_set_size": 40,
+  "best_model": "random_forest_2025-06-09_15-12-29",
+  "average_accuracy": 0.9187500000000001,
+  "evaluation_summary": {
+    "k-nearest_neighbors_2025-06-09_15-12-28": {
+      "accuracy": 0.825,
+      "f1_macro": 0.7892307692307693,
+      "precision_macro": 0.9113725490196078,
+      "recall_macro": 0.7555555555555555
+    },
+    "support_vector_machine_2025-06-09_15-12-28": {
+      "accuracy": 0.95,
+      "f1_macro": 0.9715686274509805,
+      "precision_macro": 0.9692307692307691,
+      "recall_macro": 0.9777777777777779
+    },
+    "logistic_regression_2025-06-09_15-12-28": {
+      "accuracy": 0.925,
+      "f1_macro": 0.9128659093876484,
+      "precision_macro": 0.962280701754386,
+      "recall_macro": 0.8822222222222222
+    },
+    "random_forest_2025-06-09_15-12-29": {
+      "accuracy": 0.975,
+      "f1_macro": 0.985070785070785,
+      "precision_macro": 0.9894736842105264,
+      "recall_macro": 0.9818181818181818
+    }
+  }
+}
